@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/sportpage/', // <- ważne, jeśli wrzucisz na GitHub Pages
+  base: './', // działa też lokalnie
 })
