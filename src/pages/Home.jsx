@@ -1,3 +1,3 @@
 export default function Home() {
-  return <h1 className="text-2xl font-bold">Witaj na SportPage! 🏅</h1>
+  return <h1 style={{ color: 'red' }}>DZIAŁA?</h1>;
 }
