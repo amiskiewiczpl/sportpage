@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import MedalTable from './pages/MedalTable'
@@ -9,7 +9,7 @@ import History from './pages/History'
 
 export default function App() {
   return (
-    <Router>
+    <>
       <Navbar />
       <div className="p-4">
         <Routes>
@@ -21,6 +21,6 @@ export default function App() {
           <Route path="/history" element={<History />} />
         </Routes>
       </div>
-    </Router>
+    </>
   )
 }
