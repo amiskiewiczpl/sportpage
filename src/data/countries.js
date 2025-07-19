@@ -12,7 +12,7 @@ const countries = {
       "bronze": 2
     },
     "summerGames": [],
-    "namePL": "Afghanistan"
+    "namePL": "Afganistan"
   },
   "algeria": {
     "aliases": [
@@ -27,7 +27,7 @@ const countries = {
       "bronze": 8
     },
     "summerGames": [],
-    "namePL": "Algeria"
+    "namePL": "Algieria"
   },
   "argentina": {
     "aliases": [
@@ -42,7 +42,7 @@ const countries = {
       "bronze": 30
     },
     "summerGames": [],
-    "namePL": "Argentina"
+    "namePL": "Argentyna"
   },
   "armenia": {
     "aliases": [
@@ -102,7 +102,7 @@ const countries = {
       "bronze": 28
     },
     "summerGames": [],
-    "namePL": "Azerbaijan"
+    "namePL": "Azerbejdżan"
   },
   "bahamas": {
     "aliases": [
@@ -117,7 +117,7 @@ const countries = {
       "bronze": 6
     },
     "summerGames": [],
-    "namePL": "Bahamas"
+    "namePL": "Bahamy"
   },
   "bahrain": {
     "aliases": [
@@ -132,7 +132,7 @@ const countries = {
       "bronze": 0
     },
     "summerGames": [],
-    "namePL": "Bahrain"
+    "namePL": "Bahrajn"
   },
   "barbados": {
     "aliases": [
@@ -162,7 +162,7 @@ const countries = {
       "bronze": 42
     },
     "summerGames": [],
-    "namePL": "Belarus"
+    "namePL": "Białoruś"
   },
   "belgium": {
     "aliases": [
@@ -177,7 +177,7 @@ const countries = {
       "bronze": 57
     },
     "summerGames": [],
-    "namePL": "Belgium"
+    "namePL": "Belgia"
   },
   "bermuda": {
     "aliases": [
@@ -192,7 +192,7 @@ const countries = {
       "bronze": 1
     },
     "summerGames": [],
-    "namePL": "Bermuda"
+    "namePL": "Bermudy"
   },
   "botswana": {
     "aliases": [
@@ -222,7 +222,7 @@ const countries = {
       "bronze": 71
     },
     "summerGames": [],
-    "namePL": "Brazil"
+    "namePL": "Brazylia"
   },
   "bulgaria": {
     "aliases": [
@@ -237,7 +237,7 @@ const countries = {
       "bronze": 82
     },
     "summerGames": [],
-    "namePL": "Bulgaria"
+    "namePL": "Bułgaria"
   },
   "burkina_faso": {
     "aliases": [
@@ -282,7 +282,7 @@ const countries = {
       "bronze": 2
     },
     "summerGames": [],
-    "namePL": "Cameroon"
+    "namePL": "Kamerun"
   },
   "canada": {
     "aliases": [
@@ -297,7 +297,7 @@ const countries = {
       "bronze": 146
     },
     "summerGames": [],
-    "namePL": "Canada"
+    "namePL": "Kanada"
   },
   "chile": {
     "aliases": [
@@ -327,7 +327,7 @@ const countries = {
       "bronze": 173
     },
     "summerGames": [],
-    "namePL": "China"
+    "namePL": "Chiny"
   },
   "colombia": {
     "aliases": [
@@ -342,7 +342,7 @@ const countries = {
       "bronze": 16
     },
     "summerGames": [],
-    "namePL": "Colombia"
+    "namePL": "Kolumbia"
   },
   "costa_rica": {
     "aliases": [
@@ -357,7 +357,7 @@ const countries = {
       "bronze": 2
     },
     "summerGames": [],
-    "namePL": "Costa Rica"
+    "namePL": "Kostaryka"
   },
   "croatia": {
     "aliases": [
@@ -372,7 +372,7 @@ const countries = {
       "bronze": 14
     },
     "summerGames": [],
-    "namePL": "Croatia"
+    "namePL": "Chorwacja"
   },
   "cuba": {
     "aliases": [
@@ -387,7 +387,7 @@ const countries = {
       "bronze": 82
     },
     "summerGames": [],
-    "namePL": "Cuba"
+    "namePL": "Kuba"
   },
   "cyprus": {
     "aliases": [
@@ -402,7 +402,7 @@ const countries = {
       "bronze": 0
     },
     "summerGames": [],
-    "namePL": "Cyprus"
+    "namePL": "Cypr"
   },
   "czech_republic": {
     "aliases": [
@@ -432,7 +432,7 @@ const countries = {
       "bronze": 79
     },
     "summerGames": [],
-    "namePL": "Denmark"
+    "namePL": "Dania"
   },
   "djibouti": {
     "aliases": [
@@ -447,7 +447,7 @@ const countries = {
       "bronze": 1
     },
     "summerGames": [],
-    "namePL": "Djibouti"
+    "namePL": "Dżibuti"
   },
   "dominican_republic": {
     "aliases": [
@@ -462,7 +462,7 @@ const countries = {
       "bronze": 4
     },
     "summerGames": [],
-    "namePL": "Dominican Republic"
+    "namePL": "Dominikana"
   },
   "ecuador": {
     "aliases": [
@@ -477,7 +477,7 @@ const countries = {
       "bronze": 0
     },
     "summerGames": [],
-    "namePL": "Ecuador"
+    "namePL": "Ekwador"
   },
   "egypt": {
     "aliases": [
@@ -492,7 +492,7 @@ const countries = {
       "bronze": 19
     },
     "summerGames": [],
-    "namePL": "Egypt"
+    "namePL": "Egipt"
   },
   "eritrea": {
     "aliases": [
@@ -507,7 +507,7 @@ const countries = {
       "bronze": 1
     },
     "summerGames": [],
-    "namePL": "Eritrea"
+    "namePL": "Erytrea"
   },
   "estonia": {
     "aliases": [
@@ -537,7 +537,7 @@ const countries = {
       "bronze": 23
     },
     "summerGames": [],
-    "namePL": "Ethiopia"
+    "namePL": "Etiopia"
   },
   "fiji": {
     "aliases": [
@@ -552,7 +552,7 @@ const countries = {
       "bronze": 1
     },
     "summerGames": [],
-    "namePL": "Fiji"
+    "namePL": "Fidżi"
   },
   "finland": {
     "aliases": [
@@ -567,7 +567,7 @@ const countries = {
       "bronze": 119
     },
     "summerGames": [],
-    "namePL": "Finland"
+    "namePL": "Finlandia"
   },
   "france": {
     "aliases": [
@@ -582,7 +582,7 @@ const countries = {
       "bronze": 277
     },
     "summerGames": [],
-    "namePL": "France"
+    "namePL": "Francja"
   },
   "gabon": {
     "aliases": [
@@ -612,7 +612,7 @@ const countries = {
       "bronze": 18
     },
     "summerGames": [],
-    "namePL": "Georgia"
+    "namePL": "Gruzja"
   },
   "germany": {
     "aliases": [
@@ -627,7 +627,7 @@ const countries = {
       "bronze": 247
     },
     "summerGames": [],
-    "namePL": "Germany"
+    "namePL": "Niemcy"
   },
   "ghana": {
     "aliases": [
@@ -657,7 +657,7 @@ const countries = {
       "bronze": 41
     },
     "summerGames": [],
-    "namePL": "Greece"
+    "namePL": "Grecja"
   },
   "grenada": {
     "aliases": [
@@ -687,7 +687,7 @@ const countries = {
       "bronze": 0
     },
     "summerGames": [],
-    "namePL": "Guatemala"
+    "namePL": "Gwatemala"
   },
   "guyana": {
     "aliases": [
@@ -702,7 +702,7 @@ const countries = {
       "bronze": 1
     },
     "summerGames": [],
-    "namePL": "Guyana"
+    "namePL": "Gujana"
   },
   "haiti": {
     "aliases": [
@@ -747,7 +747,7 @@ const countries = {
       "bronze": 176
     },
     "summerGames": [],
-    "namePL": "Hungary"
+    "namePL": "Węgry"
   },
   "iceland": {
     "aliases": [
@@ -762,7 +762,7 @@ const countries = {
       "bronze": 2
     },
     "summerGames": [],
-    "namePL": "Iceland"
+    "namePL": "Islandia"
   },
   "india": {
     "aliases": [
@@ -777,7 +777,7 @@ const countries = {
       "bronze": 16
     },
     "summerGames": [],
-    "namePL": "India"
+    "namePL": "Indie"
   },
   "indonesia": {
     "aliases": [
@@ -792,7 +792,7 @@ const countries = {
       "bronze": 15
     },
     "summerGames": [],
-    "namePL": "Indonesia"
+    "namePL": "Indonezja"
   },
   "iraq": {
     "aliases": [
@@ -807,7 +807,7 @@ const countries = {
       "bronze": 1
     },
     "summerGames": [],
-    "namePL": "Iraq"
+    "namePL": "Irak"
   },
   "ireland": {
     "aliases": [
@@ -822,7 +822,7 @@ const countries = {
       "bronze": 14
     },
     "summerGames": [],
-    "namePL": "Ireland"
+    "namePL": "Irlandia"
   },
   "israel": {
     "aliases": [
@@ -837,7 +837,7 @@ const countries = {
       "bronze": 9
     },
     "summerGames": [],
-    "namePL": "Israel"
+    "namePL": "Izrael"
   },
   "italy": {
     "aliases": [
@@ -852,7 +852,7 @@ const countries = {
       "bronze": 213
     },
     "summerGames": [],
-    "namePL": "Italy"
+    "namePL": "Włochy"
   },
   "jamaica": {
     "aliases": [
@@ -867,7 +867,7 @@ const countries = {
       "bronze": 25
     },
     "summerGames": [],
-    "namePL": "Jamaica"
+    "namePL": "Jamajka"
   },
   "japan": {
     "aliases": [
@@ -882,7 +882,7 @@ const countries = {
       "bronze": 178
     },
     "summerGames": [],
-    "namePL": "Japan"
+    "namePL": "Japonia"
   },
   "jordan": {
     "aliases": [
@@ -897,7 +897,7 @@ const countries = {
       "bronze": 1
     },
     "summerGames": [],
-    "namePL": "Jordan"
+    "namePL": "Jordania"
   },
   "kazakhstan": {
     "aliases": [
@@ -912,7 +912,7 @@ const countries = {
       "bronze": 35
     },
     "summerGames": [],
-    "namePL": "Kazakhstan"
+    "namePL": "Kazachstan"
   },
   "kenya": {
     "aliases": [
@@ -927,7 +927,7 @@ const countries = {
       "bronze": 36
     },
     "summerGames": [],
-    "namePL": "Kenya"
+    "namePL": "Kenia"
   },
   "kuwait": {
     "aliases": [
@@ -942,7 +942,7 @@ const countries = {
       "bronze": 3
     },
     "summerGames": [],
-    "namePL": "Kuwait"
+    "namePL": "Kuwejt"
   },
   "kyrgyzstan": {
     "aliases": [
@@ -957,7 +957,7 @@ const countries = {
       "bronze": 4
     },
     "summerGames": [],
-    "namePL": "Kyrgyzstan"
+    "namePL": "Kirgistan"
   },
   "latvia": {
     "aliases": [
@@ -972,7 +972,7 @@ const countries = {
       "bronze": 6
     },
     "summerGames": [],
-    "namePL": "Latvia"
+    "namePL": "Łotwa"
   },
   "lebanon": {
     "aliases": [
@@ -987,7 +987,7 @@ const countries = {
       "bronze": 2
     },
     "summerGames": [],
-    "namePL": "Lebanon"
+    "namePL": "Liban"
   },
   "liechtenstein": {
     "aliases": [
@@ -1017,7 +1017,7 @@ const countries = {
       "bronze": 13
     },
     "summerGames": [],
-    "namePL": "Lithuania"
+    "namePL": "Litwa"
   },
   "luxembourg": {
     "aliases": [
@@ -1032,7 +1032,7 @@ const countries = {
       "bronze": 0
     },
     "summerGames": [],
-    "namePL": "Luxembourg"
+    "namePL": "Luksemburg"
   },
   "malaysia": {
     "aliases": [
@@ -1047,7 +1047,7 @@ const countries = {
       "bronze": 5
     },
     "summerGames": [],
-    "namePL": "Malaysia"
+    "namePL": "Malezja"
   },
   "mauritius": {
     "aliases": [
@@ -1077,7 +1077,7 @@ const countries = {
       "bronze": 35
     },
     "summerGames": [],
-    "namePL": "Mexico"
+    "namePL": "Meksyk"
   },
   "moldova": {
     "aliases": [
@@ -1122,7 +1122,7 @@ const countries = {
       "bronze": 0
     },
     "summerGames": [],
-    "namePL": "Montenegro"
+    "namePL": "Czarnogóra"
   },
   "morocco": {
     "aliases": [
@@ -1137,7 +1137,7 @@ const countries = {
       "bronze": 12
     },
     "summerGames": [],
-    "namePL": "Morocco"
+    "namePL": "Maroko"
   },
   "mozambique": {
     "aliases": [
@@ -1152,7 +1152,7 @@ const countries = {
       "bronze": 1
     },
     "summerGames": [],
-    "namePL": "Mozambique"
+    "namePL": "Mozambik"
   },
   "namibia": {
     "aliases": [
@@ -1182,7 +1182,7 @@ const countries = {
       "bronze": 122
     },
     "summerGames": [],
-    "namePL": "Netherlands"
+    "namePL": "Niderlandy"
   },
   "new_zealand": {
     "aliases": [
@@ -1197,7 +1197,7 @@ const countries = {
       "bronze": 51
     },
     "summerGames": [],
-    "namePL": "New Zealand"
+    "namePL": "Nowa Zelandia"
   },
   "niger": {
     "aliases": [
@@ -1242,7 +1242,7 @@ const countries = {
       "bronze": 1
     },
     "summerGames": [],
-    "namePL": "North Macedonia"
+    "namePL": "Macedonia Północna"
   },
   "norway": {
     "aliases": [
@@ -1257,7 +1257,7 @@ const countries = {
       "bronze": 50
     },
     "summerGames": [],
-    "namePL": "Norway"
+    "namePL": "Norwegia"
   },
   "pakistan": {
     "aliases": [
@@ -1302,7 +1302,7 @@ const countries = {
       "bronze": 0
     },
     "summerGames": [],
-    "namePL": "Paraguay"
+    "namePL": "Paragwaj"
   },
   "peru": {
     "aliases": [
@@ -1332,7 +1332,7 @@ const countries = {
       "bronze": 8
     },
     "summerGames": [],
-    "namePL": "Philippines"
+    "namePL": "Filipiny"
   },
   "poland": {
     "aliases": [
@@ -1347,7 +1347,7 @@ const countries = {
       "bronze": 137
     },
     "summerGames": [],
-    "namePL": "Poland"
+    "namePL": "Polska"
   },
   "portugal": {
     "aliases": [
@@ -1362,7 +1362,7 @@ const countries = {
       "bronze": 14
     },
     "summerGames": [],
-    "namePL": "Portugal"
+    "namePL": "Portugalia"
   },
   "puerto_rico": {
     "aliases": [
@@ -1377,7 +1377,7 @@ const countries = {
       "bronze": 6
     },
     "summerGames": [],
-    "namePL": "Puerto Rico"
+    "namePL": "Portoryko"
   },
   "qatar": {
     "aliases": [
@@ -1392,7 +1392,7 @@ const countries = {
       "bronze": 4
     },
     "summerGames": [],
-    "namePL": "Qatar"
+    "namePL": "Katar"
   },
   "romania": {
     "aliases": [
@@ -1407,7 +1407,7 @@ const countries = {
       "bronze": 121
     },
     "summerGames": [],
-    "namePL": "Romania"
+    "namePL": "Rumunia"
   },
   "san_marino": {
     "aliases": [
@@ -1437,7 +1437,7 @@ const countries = {
       "bronze": 2
     },
     "summerGames": [],
-    "namePL": "Saudi Arabia"
+    "namePL": "Arabia Saudyjska"
   },
   "samoa": {
     "aliases": [
@@ -1497,7 +1497,7 @@ const countries = {
       "bronze": 2
     },
     "summerGames": [],
-    "namePL": "Singapore"
+    "namePL": "Singapur"
   },
   "slovakia": {
     "aliases": [
@@ -1527,7 +1527,7 @@ const countries = {
       "bronze": 11
     },
     "summerGames": [],
-    "namePL": "Slovenia"
+    "namePL": "Słowenia"
   },
   "south_africa": {
     "aliases": [
@@ -1542,7 +1542,7 @@ const countries = {
       "bronze": 29
     },
     "summerGames": [],
-    "namePL": "South Africa"
+    "namePL": "Republika Południowej Afryki"
   },
   "spain": {
     "aliases": [
@@ -1557,7 +1557,7 @@ const countries = {
       "bronze": 49
     },
     "summerGames": [],
-    "namePL": "Spain"
+    "namePL": "Hiszpania"
   },
   "sri_lanka": {
     "aliases": [
@@ -1602,7 +1602,7 @@ const countries = {
       "bronze": 1
     },
     "summerGames": [],
-    "namePL": "Suriname"
+    "namePL": "Surinam"
   },
   "sweden": {
     "aliases": [
@@ -1617,7 +1617,7 @@ const countries = {
       "bronze": 179
     },
     "summerGames": [],
-    "namePL": "Sweden"
+    "namePL": "Szwecja"
   },
   "switzerland": {
     "aliases": [
@@ -1632,7 +1632,7 @@ const countries = {
       "bronze": 74
     },
     "summerGames": [],
-    "namePL": "Switzerland"
+    "namePL": "Szwajcaria"
   },
   "tajikistan": {
     "aliases": [
@@ -1647,7 +1647,7 @@ const countries = {
       "bronze": 2
     },
     "summerGames": [],
-    "namePL": "Tajikistan"
+    "namePL": "Tadżykistan"
   },
   "tanzania": {
     "aliases": [
@@ -1662,7 +1662,7 @@ const countries = {
       "bronze": 0
     },
     "summerGames": [],
-    "namePL": "Tanzania, United Republic of"
+    "namePL": "Tanzania"
   },
   "thailand": {
     "aliases": [
@@ -1677,7 +1677,7 @@ const countries = {
       "bronze": 17
     },
     "summerGames": [],
-    "namePL": "Thailand"
+    "namePL": "Tajlandia"
   },
   "togo": {
     "aliases": [
@@ -1722,7 +1722,7 @@ const countries = {
       "bronze": 11
     },
     "summerGames": [],
-    "namePL": "Trinidad and Tobago"
+    "namePL": "Trinidad i Tobago"
   },
   "tunisia": {
     "aliases": [
@@ -1737,7 +1737,7 @@ const countries = {
       "bronze": 7
     },
     "summerGames": [],
-    "namePL": "Tunisia"
+    "namePL": "Tunezja"
   },
   "turkey": {
     "aliases": [
@@ -1752,7 +1752,7 @@ const countries = {
       "bronze": 37
     },
     "summerGames": [],
-    "namePL": "Turkey"
+    "namePL": "Turcja"
   },
   "turkmenistan": {
     "aliases": [
@@ -1797,7 +1797,7 @@ const countries = {
       "bronze": 68
     },
     "summerGames": [],
-    "namePL": "Ukraine"
+    "namePL": "Ukraina"
   },
   "united_arab_emirates": {
     "aliases": [
@@ -1812,7 +1812,7 @@ const countries = {
       "bronze": 1
     },
     "summerGames": [],
-    "namePL": "United Arab Emirates"
+    "namePL": "Zjednoczone Emiraty Arabskie"
   },
   "united_states": {
     "aliases": [
@@ -1842,7 +1842,7 @@ const countries = {
       "bronze": 6
     },
     "summerGames": [],
-    "namePL": "Uruguay"
+    "namePL": "Urugwaj"
   },
   "uzbekistan": {
     "aliases": [
