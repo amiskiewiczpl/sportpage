@@ -38,7 +38,7 @@ const countries = {
   },
 
   france: {
-    aliases: ['fr', 'france', 'francja'],
+    aliases: ['fra', 'france', 'francja'],
     name: 'Francja',
     medals: {
       gold: 264,
