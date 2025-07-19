@@ -3,6 +3,7 @@
 const countries = {
   poland: {
     aliases: ['pol', 'polska', 'poland'],
+    flagUrl: 'https://flagcdn.com/pl.svg',
     name: 'Polska',
     medals: {
       gold: 75,
@@ -21,6 +22,7 @@ const countries = {
 
   germany: {
     aliases: ['ger', 'niemcy', 'germany'],
+    flagUrl: 'https://flagcdn.com/de.svg',
     name: 'Niemcy',
     medals: {
       gold: 293,
@@ -39,6 +41,7 @@ const countries = {
 
   france: {
     aliases: ['fra', 'france', 'francja'],
+    flagUrl: 'https://flagcdn.com/fr.svg',
     name: 'Francja',
     medals: {
       gold: 264,
