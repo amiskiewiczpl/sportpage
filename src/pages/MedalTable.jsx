@@ -31,14 +31,14 @@ const sortedCountries = [...Object.values(countries)].sort((a, b) => {
       <h2>🥇 Tabela medalowa – Letnie Igrzyska</h2>
       <table style={{ borderCollapse: 'collapse', width: '100%', textAlign: 'center' }}>
         <thead>
-          <tr>
-            <th style={{ cursor: 'pointer' }} onClick={() => handleSort('gold')}>Złote 🥇</th>
-            <th style={{ cursor: 'pointer' }} onClick={() => handleSort('silver')}>Srebrne 🥈</th>
-            <th style={{ cursor: 'pointer' }} onClick={() => handleSort('bronze')}>Brązowe 🥉</th>
-            <th style={{ cursor: 'pointer' }} onClick={() => handleSort('total')}>Razem</th>
-
-          </tr>
-        </thead>
+  <tr>
+    <th style={{ border: '1px solid #ccc', padding: '8px' }}>Kraj</th>
+    <th style={{ cursor: 'pointer' }} onClick={() => handleSort('gold')}>Złote 🥇</th>
+    <th style={{ cursor: 'pointer' }} onClick={() => handleSort('silver')}>Srebrne 🥈</th>
+    <th style={{ cursor: 'pointer' }} onClick={() => handleSort('bronze')}>Brązowe 🥉</th>
+    <th style={{ cursor: 'pointer' }} onClick={() => handleSort('total')}>Razem</th>
+  </tr>
+</thead>
         <tbody>
   {sortedCountries.map((country, index) => (
     <tr key={index}>
