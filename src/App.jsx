@@ -16,7 +16,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/medals" element={<MedalTable />} />
           <Route path="/ranking" element={<FormRanking />} />
-          <Route path="/country" element={<Country />} />
+          <Route path="/country/:id" element={<Country />} />
           <Route path="/hopes" element={<OlympicHopes />} />
           <Route path="/history" element={<History />} />
         </Routes>
