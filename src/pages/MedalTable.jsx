@@ -17,7 +17,7 @@ const sortedCountries = [...Object.values(countries)].sort((a, b) => {
   if (sortConfig.key === 'total') {
     return country.medals.gold + country.medals.silver + country.medals.bronze;
   } else if (sortConfig.key === 'name') {
-    return country.name.toLowerCase();
+    return (country.namePL || country.name).toLowerCase();
   } else {
     return country.medals[sortConfig.key];
   }
@@ -52,7 +52,7 @@ return sortConfig.direction === 'asc' ? valA - valB : valB - valA;
         <a href={`#/country/${country.aliases[0]}`} style={{ textDecoration: 'none', color: 'black' }}>
           <img
             src={country.flagUrl}
-            alt={`Flaga ${country.name}`}
+            alt={`Flaga ${country.namePL || country.name}`}
             style={{
               width: '24px',
              height: '16px',
@@ -62,7 +62,7 @@ return sortConfig.direction === 'asc' ? valA - valB : valB - valA;
            verticalAlign: 'middle'
   }}
 />
-          {country.name}
+          {country.namePL || country.name}
         </a>
       </td>
       <td style={{ border: '1px solid #ccc', padding: '8px' }}>{country.medals.gold}</td>
