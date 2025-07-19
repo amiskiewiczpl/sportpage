@@ -14,16 +14,22 @@ const handleSort = (key) => {
 
 const sortedCountries = [...Object.values(countries)].sort((a, b) => {
   const getValue = (country) => {
-    if (sortConfig.key === 'total') {
-      return country.medals.gold + country.medals.silver + country.medals.bronze;
-    }
+  if (sortConfig.key === 'total') {
+    return country.medals.gold + country.medals.silver + country.medals.bronze;
+  } else if (sortConfig.key === 'name') {
+    return country.name.toLowerCase();
+  } else {
     return country.medals[sortConfig.key];
-  };
-
+  }
+};
   const valA = getValue(a);
   const valB = getValue(b);
 
-  return sortConfig.direction === 'asc' ? valA - valB : valB - valA;
+  if (typeof valA === 'string' && typeof valB === 'string') {
+  return sortConfig.direction === 'asc' ? valA.localeCompare(valB) : valB.localeCompare(valA);
+}
+return sortConfig.direction === 'asc' ? valA - valB : valB - valA;
+
 });
 
   return (
@@ -32,7 +38,7 @@ const sortedCountries = [...Object.values(countries)].sort((a, b) => {
       <table style={{ borderCollapse: 'collapse', width: '100%', textAlign: 'center' }}>
         <thead>
   <tr>
-    <th style={{ border: '1px solid #ccc', padding: '8px' }}>Kraj</th>
+    <th style={{ cursor: 'pointer' }} onClick={() => handleSort('name')}>Kraj 🌍</th>
     <th style={{ cursor: 'pointer' }} onClick={() => handleSort('gold')}>Złote 🥇</th>
     <th style={{ cursor: 'pointer' }} onClick={() => handleSort('silver')}>Srebrne 🥈</th>
     <th style={{ cursor: 'pointer' }} onClick={() => handleSort('bronze')}>Brązowe 🥉</th>
