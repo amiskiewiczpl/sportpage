@@ -1,34 +1,64 @@
-import { useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom';
+
+const countryData = {
+  poland: {
+    name: 'Polska',
+    totalMedals: {
+      gold: 75,
+      silver: 91,
+      bronze: 140,
+    },
+    olympics: [
+      { year: 2020, city: 'Tokio', gold: 4, silver: 5, bronze: 5 },
+      { year: 2016, city: 'Rio de Janeiro', gold: 2, silver: 3, bronze: 6 },
+      { year: 2012, city: 'Londyn', gold: 2, silver: 2, bronze: 6 },
+      { year: 2008, city: 'Pekin', gold: 3, silver: 6, bronze: 1 },
+      // Dodaj więcej jeśli chcesz
+    ],
+  },
+};
 
 export default function Country() {
-  const { code } = useParams()
+  const { id } = useParams();
+  const country = countryData[id];
 
-  const countryData = {
-    POL: {
-      name: 'Polska',
-      gold: 8,
-      silver: 6,
-      bronze: 10,
-      total: 24,
-      rank: 9,
-    },
-    // Możesz dodać kolejne kraje tutaj
+  if (!country) {
+    return <h2>Kraj nie został znaleziony.</h2>;
   }
-
-  const country = countryData[code.toUpperCase()]
-
-  if (!country) return <h2>Nie znaleziono kraju</h2>
 
   return (
     <div>
-      <h2>{country.name}</h2>
-      <p>Miejsce w rankingu: {country.rank}</p>
+      <h1>{country.name}</h1>
+      <h3>🥇 Medale ogółem (Letnie Igrzyska Olimpijskie):</h3>
       <ul>
-        <li>🥇 Złote: {country.gold}</li>
-        <li>🥈 Srebrne: {country.silver}</li>
-        <li>🥉 Brązowe: {country.bronze}</li>
-        <li>🏅 Razem: {country.total}</li>
+        <li>🥇 Złote: {country.totalMedals.gold}</li>
+        <li>🥈 Srebrne: {country.totalMedals.silver}</li>
+        <li>🥉 Brązowe: {country.totalMedals.bronze}</li>
       </ul>
+
+      <h3>📅 Historia medalowa:</h3>
+      <table border="1" cellPadding="8">
+        <thead>
+          <tr>
+            <th>Rok</th>
+            <th>Miasto</th>
+            <th>Złote</th>
+            <th>Srebrne</th>
+            <th>Brązowe</th>
+          </tr>
+        </thead>
+        <tbody>
+          {country.olympics.map((event) => (
+            <tr key={event.year}>
+              <td>{event.year}</td>
+              <td>{event.city}</td>
+              <td>{event.gold}</td>
+              <td>{event.silver}</td>
+              <td>{event.bronze}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
-  )
+  );
 }
