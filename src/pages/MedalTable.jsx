@@ -1,23 +1,46 @@
 import { Link } from 'react-router-dom'
 import countries from '../data/countries';
+import { useState } from 'react';
 
 export default function MedalTable() {
-  const countryList = Object.values(countries);
+  const [sortConfig, setSortConfig] = useState({ key: 'gold', direction: 'desc' });
+
+const handleSort = (key) => {
+  setSortConfig((prev) => ({
+    key,
+    direction: prev.key === key && prev.direction === 'desc' ? 'asc' : 'desc',
+  }));
+};
+
+const sortedCountries = [...Object.values(countries)].sort((a, b) => {
+  const getValue = (country) => {
+    if (sortConfig.key === 'total') {
+      return country.medals.gold + country.medals.silver + country.medals.bronze;
+    }
+    return country.medals[sortConfig.key];
+  };
+
+  const valA = getValue(a);
+  const valB = getValue(b);
+
+  return sortConfig.direction === 'asc' ? valA - valB : valB - valA;
+});
+
   return (
     <div>
       <h2>🥇 Tabela medalowa – Letnie Igrzyska</h2>
       <table style={{ borderCollapse: 'collapse', width: '100%', textAlign: 'center' }}>
         <thead>
           <tr>
-            <th style={{ border: '1px solid #ccc', padding: '8px' }}>Miejsce</th>
-            <th style={{ border: '1px solid #ccc', padding: '8px' }}>Złote 🥇</th>
-            <th style={{ border: '1px solid #ccc', padding: '8px' }}>Srebrne 🥈</th>
-            <th style={{ border: '1px solid #ccc', padding: '8px' }}>Brązowe 🥉</th>
-            <th style={{ border: '1px solid #ccc', padding: '8px' }}>Razem</th>
+            <th style={{ cursor: 'pointer' }} onClick={() => handleSort('gold')}>Złote 🥇</th>
+            <th style={{ cursor: 'pointer' }} onClick={() => handleSort('silver')}>Srebrne 🥈</th>
+            <th style={{ cursor: 'pointer' }} onClick={() => handleSort('bronze')}>Brązowe 🥉</th>
+            <th style={{ cursor: 'pointer' }} onClick={() => handleSort('total')}>Razem</th>
+
           </tr>
         </thead>
         <tbody>
-  {countryList.map((country, index) => (
+  {sortedCountries.map((country, index) => (
     <tr key={index}>
       <td style={{ border: '1px solid #ccc', padding: '8px' }}>
         <a href={`#/country/${country.aliases[0]}`} style={{ textDecoration: 'none', color: 'black' }}>
