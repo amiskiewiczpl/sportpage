@@ -9,13 +9,7 @@ function Country() {
 
   return (
     <div>
-      <h1>
-        <img
-    src={kraj.flagUrl}
-    alt={`Flaga ${kraj.name}`}
-    style={{ width: '32px', height: '20px', marginRight: '10px', verticalAlign: 'middle' }}
-  />
-  Polska</h1>
+      <h1>Polska</h1>
       <p>🥇 Złote: 75</p>
       <p>🥈 Srebrne: 91</p>
       <p>🥉 Brązowe: 140</p>
