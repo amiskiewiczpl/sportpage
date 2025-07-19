@@ -24,8 +24,15 @@ export default function MedalTable() {
           <img
             src={country.flagUrl}
             alt={`Flaga ${country.name}`}
-            style={{ width: '24px', height: '16px', verticalAlign: 'middle', marginRight: '8px' }}
-          />
+            style={{
+              width: '24px',
+             height: '16px',
+            objectFit: 'cover',
+            display: 'inline-block',
+           marginRight: '8px',
+           verticalAlign: 'middle'
+  }}
+/>
           {country.name}
         </a>
       </td>
