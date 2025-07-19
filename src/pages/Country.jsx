@@ -35,26 +35,34 @@ function Country() {
       <p>🥉 Brązowe: {kraj.medals.bronze}</p>
 
       <h2>Medale na Letnich Igrzyskach</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Rok</th>
-            <th>Złote</th>
-            <th>Srebrne</th>
-            <th>Brązowe</th>
-          </tr>
-        </thead>
-        <tbody>
-          {kraj.summerGames.map((game) => (
-            <tr key={game.year}>
-              <td>{game.year}</td>
-              <td>{game.gold}</td>
-              <td>{game.silver}</td>
-              <td>{game.bronze}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+<table style={{ borderCollapse: 'collapse', width: '100%', textAlign: 'center', marginTop: '10px' }}>
+  <thead>
+    <tr>
+      <th style={{ border: '1px solid #ccc', padding: '8px' }}>Rok</th>
+      <th style={{ border: '1px solid #ccc', padding: '8px' }}>Miasto</th>
+      <th style={{ border: '1px solid #ccc', padding: '8px' }}>Złote 🥇</th>
+      <th style={{ border: '1px solid #ccc', padding: '8px' }}>Srebrne 🥈</th>
+      <th style={{ border: '1px solid #ccc', padding: '8px' }}>Brązowe 🥉</th>
+      <th style={{ border: '1px solid #ccc', padding: '8px' }}>Razem</th>
+    </tr>
+  </thead>
+  <tbody>
+    {kraj.summerGames
+      .filter(game => game.gold + game.silver + game.bronze > 0)
+      .map((game) => (
+        <tr key={game.year}>
+          <td style={{ border: '1px solid #ccc', padding: '8px' }}>{game.year}</td>
+          <td style={{ border: '1px solid #ccc', padding: '8px' }}>{game.city || '-'}</td>
+          <td style={{ border: '1px solid #ccc', padding: '8px' }}>{game.gold}</td>
+          <td style={{ border: '1px solid #ccc', padding: '8px' }}>{game.silver}</td>
+          <td style={{ border: '1px solid #ccc', padding: '8px' }}>{game.bronze}</td>
+          <td style={{ border: '1px solid #ccc', padding: '8px' }}>
+            {game.gold + game.silver + game.bronze}
+          </td>
+        </tr>
+      ))}
+  </tbody>
+</table>
     </div>
   );
 }
