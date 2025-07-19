@@ -16,17 +16,19 @@ function Country() {
     return <div>Nie znaleziono kraju: {id}</div>;
   }
 
+  const displayName = kraj.namePL || kraj.name;
+
   return (
     <div>
       <h1>
         {kraj.flagUrl && (
           <img
             src={kraj.flagUrl}
-            alt={`Flaga ${kraj.name}`}
+            alt={`Flaga ${displayName}`}
             style={{ width: '32px', height: '20px', marginRight: '10px', verticalAlign: 'middle' }}
           />
         )}
-        {kraj.name}
+        {displayName}
       </h1>
       <p>🥇 Złote: {kraj.medals.gold}</p>
       <p>🥈 Srebrne: {kraj.medals.silver}</p>
