@@ -1,5 +1,7 @@
 import { useParams } from 'react-router-dom';
 import countries from '../data/countries';
+import summerData from '../data/countrySummerGames.json';
+
 
 function findCountryById(id) {
   const normalized = id.toLowerCase();
@@ -11,6 +13,7 @@ function findCountryById(id) {
 function Country() {
   const { id } = useParams();
   const kraj = findCountryById(id);
+  const summerGames = summerData[kraj.name] || [];
 
   if (!kraj) {
     return <div>Nie znaleziono kraju: {id}</div>;
@@ -47,7 +50,7 @@ function Country() {
     </tr>
   </thead>
   <tbody>
-    {kraj.summerGames
+    {summerGames
       .filter(game => game.gold + game.silver + game.bronze > 0)
       .map((game) => (
         <tr key={game.year}>
