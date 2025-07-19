@@ -38,6 +38,24 @@ const countries = {
       { year: 2020, gold: 10, silver: 11, bronze: 16 },
     ],
   },
+usa: {
+  aliases: ['usa', 'stany', 'united states'],
+  flagUrl: 'https://flagcdn.com/us.svg',
+  name: 'USA',
+  medals: {
+    gold: 1063,
+    silver: 836,
+    bronze: 739,
+  },
+  summerGames: [
+    { year: 2000, gold: 37, silver: 24, bronze: 32 },
+    { year: 2004, gold: 36, silver: 39, bronze: 26 },
+    { year: 2008, gold: 36, silver: 38, bronze: 36 },
+    { year: 2012, gold: 46, silver: 28, bronze: 29 },
+    { year: 2016, gold: 46, silver: 37, bronze: 38 },
+    { year: 2020, gold: 39, silver: 41, bronze: 33 },
+  ],
+},
 
   france: {
     aliases: ['fra', 'france', 'francja'],
